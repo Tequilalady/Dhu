@@ -1,0 +1,113 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style" :
+				{
+				 "navigationBarTitleText": "",
+				 "enablePullDownRefresh": false
+				}
+		}
+        ,{
+            "path" : "pages/daily-status/daily-status",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/group-kpi/group-kpi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		
+		
+        ,{
+            "path" : "pages/A/A",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/status-input/status-input",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/kpi-input/kpi-input",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/affair-input/affair-input",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/acti-input/acti-input",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "D-HU",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#dadada"
+	},
+	"tabBar":{
+		"selectedColor":"#0000a0",
+		"list":[
+			{"pagePath":"pages/index/index",
+			"text":"首页",
+			"iconPath":"static/home.png",
+			"selectedIconPath":"static/home-active.png"},
+			{"pagePath":"pages/daily-status/daily-status",
+			"text":"生产",
+			"iconPath":"static/status.png",
+			"selectedIconPath":"static/status-active.png"},
+			{"pagePath":"pages/group-kpi/group-kpi",
+			"text":"KPI",
+			"iconPath":"static/KPI.png",
+			"selectedIconPath":"static/KPI-active.png"},
+			{"pagePath":"pages/my/my",
+			"text":"个人",
+			"iconPath":"static/my.png",
+			"selectedIconPath":"./static/my-active.png"}
+		]
+	}
+}
